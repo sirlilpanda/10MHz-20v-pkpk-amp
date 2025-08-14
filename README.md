@@ -4,7 +4,7 @@
 a cool table showing the workflow of all the kicad projects.
 | project_name | DRC | ERC |
 | ------------ | --- | --- |
-| 10MHz-amp | [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16953769394/attempts/1#summary-48051687341)| [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16953769394/attempts/1#summary-48051687343) | 
+| 10MHz-amp | [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16979264638/attempts/1#summary-48135575068)| [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16979264638/attempts/1#summary-48135575065) | 
 
 for a quick guide check [project setup](#project-setup)
 
@@ -15,7 +15,7 @@ This is a simple project template for new kicad projects. This template has some
 - [schematic pdf](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/tree/main/10MHz-amp_schematic.pdf)
 
 
-This workflow will also run the design rules check on the PCB and schematic to ensure that you upload a working PCB. These reports are uploaded as summaries within the github [actions tab](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16953769394). This template has a simple schematic PCB in it (because DRC fails on an empty PCB). Shown below is the example PCB.
+This workflow will also run the design rules check on the PCB and schematic to ensure that you upload a working PCB. These reports are uploaded as summaries within the github [actions tab](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/16979264638). This template has a simple schematic PCB in it (because DRC fails on an empty PCB). Shown below is the example PCB.
 
 ![example pcb with battery diode and resistor](res/image.png)
 
