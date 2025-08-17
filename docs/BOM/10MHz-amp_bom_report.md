@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 01:49:26.402604 on 14-08-2025.
+report created at 23:46:35.671864 on 14-08-2025.
 
-10MHz-amp_bill_of_material has a total of 119 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 127 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -55,6 +55,7 @@ report created at 01:49:26.402604 on 14-08-2025.
 | D20 | LED | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | D21 | LED | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | D22 | LED | 1 | Diode_SMD:D_0603_1608Metric | $0 |
+| D23 | D_Schottky | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | F1 | Fuse | 1 |  | $0 |
 | F2 | Fuse | 1 |  | $0 |
 | F3 | Fuse | 1 |  | $0 |
@@ -75,12 +76,15 @@ report created at 01:49:26.402604 on 14-08-2025.
 | K3 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K4 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K5 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
+| K6 | TQ2-5V | 1 | TQ2-5V:TQ2 | $0 |
 | N1 | Housing | 1 |  | $0 |
 | Q1 | PMOS | 1 |  | $0 |
 | Q2 | NMOS | 1 |  | $0 |
 | Q3 | PMOS | 1 |  | $0 |
 | Q4 | AO4803A | 1 | SO8SOP-8L_AOS | $0 |
 | Q5 | AO4803A | 1 | SO8SOP-8L_AOS | $0 |
+| Q6 | NMOS | 1 |  | $0 |
+| Q7 | NMOS | 1 |  | $0 |
 | R1 | 50 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R2 | 1k | 1 | Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal | $0 |
 | R3 | 20k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
@@ -120,9 +124,13 @@ report created at 01:49:26.402604 on 14-08-2025.
 | R37 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R38 | 0 | 1 |  | $0 |
 | R39 | 0 | 1 |  | $0 |
+| R40 | 10 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R41 | 10 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R42 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R43 | 1M | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | SW1 | SW_SPDT | 1 |  | $0 |
 | SW2 | SW_SP5T_NR01105 | 1 | Button_Switch_THT:SW_NKK_NR01 | $0 |
 | SW3 | SW_SPDT | 1 |  | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm | $0 |
 | U2 | LTC4417HGN | 1 | Package_SO:SSOP-24_3.9x8.7mm_P0.635mm | $0 |
-|  | total | 119 | total | $0 |
+|  | total | 127 | total | $0 |
