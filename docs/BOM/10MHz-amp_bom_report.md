@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 23:33:30.638587 on 17-08-2025.
+report created at 00:28:43.747835 on 18-08-2025.
 
-10MHz-amp_bill_of_material has a total of 112 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 118 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -58,6 +58,9 @@ report created at 23:33:30.638587 on 17-08-2025.
 | F1 | Fuse | 1 |  | $0 |
 | F2 | Fuse | 1 |  | $0 |
 | F3 | Fuse | 1 |  | $0 |
+| FB1 | FerriteBead | 1 |  | $0 |
+| FB2 | FerriteBead | 1 |  | $0 |
+| FB3 | FerriteBead | 1 |  | $0 |
 | HS1 | Heatsink | 1 |  | $0 |
 | J1 | Conn_Coaxial | 1 |  | $0 |
 | J2 | Barrel_Jack_MountingPin | 1 |  | $0 |
@@ -67,9 +70,12 @@ report created at 23:33:30.638587 on 17-08-2025.
 | J6 | Conn_Coaxial | 1 |  | $0 |
 | J7 | Conn_01x07_Pin | 1 | Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal | $0 |
 | J8 | Conn_01x07_Socket | 1 | Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical | $0 |
-| JP1 | Jumper_2_Bridged | 1 |  | $0 |
-| JP2 | Jumper_2_Bridged | 1 |  | $0 |
-| JP3 | Jumper_2_Bridged | 1 |  | $0 |
+| JP1 | 24V | 1 |  | $0 |
+| JP2 | +VDC | 1 |  | $0 |
+| JP3 | -VDC | 1 |  | $0 |
+| JP4 | RVP BYPASS | 1 |  | $0 |
+| JP5 | RVP BYPASS | 1 |  | $0 |
+| JP6 | RVP BYPASS | 1 |  | $0 |
 | K1 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K2 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K3 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
@@ -118,4 +124,4 @@ report created at 23:33:30.638587 on 17-08-2025.
 | TP1 | grounding_strip | 1 |  | $0 |
 | TP2 | grounding_strip | 1 |  | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm | $0 |
-|  | total | 112 | total | $0 |
+|  | total | 118 | total | $0 |
