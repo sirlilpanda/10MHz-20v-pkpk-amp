@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 02:58:29.753719 on 19-08-2025.
+report created at 04:07:02.897235 on 19-08-2025.
 
-10MHz-amp_bill_of_material has a total of 121 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 119 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -59,9 +59,9 @@ report created at 02:58:29.753719 on 19-08-2025.
 | F1 | Fuse | 1 |  | $0 |
 | F2 | Fuse | 1 |  | $0 |
 | F3 | Fuse | 1 |  | $0 |
-| FB1 | FerriteBead | 1 |  | $0 |
-| FB2 | FerriteBead | 1 |  | $0 |
-| FB3 | FerriteBead | 1 |  | $0 |
+| FB3 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
+| FB4 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
+| FB5 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | HS1 | Heatsink | 1 |  | $0 |
 | J1 | Conn_Coaxial | 1 |  | $0 |
 | J2 | BANANA_JACK | 1 |  | $0 |
@@ -69,8 +69,8 @@ report created at 02:58:29.753719 on 19-08-2025.
 | J4 | BANANA_JACK | 1 |  | $0 |
 | J5 | Conn_Coaxial | 1 |  | $0 |
 | J6 | Barrel_Jack_MountingPin | 1 |  | $0 |
-| J7 | Conn_01x07_Pin | 1 | Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Horizontal | $0 |
-| J8 | Conn_01x07_Socket | 1 | Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical | $0 |
+| J7 | Conn_01x08_Pin | 1 |  | $0 |
+| J8 | Conn_01x08_Socket | 1 |  | $0 |
 | JP1 | RVP BYPASS | 1 |  | $0 |
 | JP2 | RVP BYPASS | 1 |  | $0 |
 | JP4 | -VDC | 1 |  | $0 |
@@ -88,10 +88,10 @@ report created at 02:58:29.753719 on 19-08-2025.
 | Q4 | DMPH6250SQ-13 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | R1 | 1k | 1 | Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal | $0 |
 | R2 | 1k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| R3 | 200 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| R4 | 110 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| R5 | 10.2 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| R6 | 1 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R3 | 200R | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R4 | 110R | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R5 | 10R2 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R6 | 1R | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R7 | 50R | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R8 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R9 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
@@ -118,13 +118,11 @@ report created at 02:58:29.753719 on 19-08-2025.
 | R30 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R31 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R32 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| R33 | 1 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R33 | 1R | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R34 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R36 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | SW1 | SW_SPDT | 1 |  | $0 |
 | SW2 | SW_SPST | 1 |  | $0 |
-| SW3 | SW_SP5T_NR01105 | 1 | Button_Switch_THT:SW_NKK_NR01 | $0 |
-| SW5 | 100SP2T1B1M1QEH | 1 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | $0 |
-| TP1 | grounding_strip | 1 |  | $0 |
-| TP2 | grounding_strip | 1 |  | $0 |
-| U1 | THS3491xDDA | 1 | Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm | $0 |
-|  | total | 121 | total | $0 |
+| SW4 | SP6T-A10603RNZQ | 1 | Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical | $0 |
+| U1 | THS3491xDDA | 1 | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm | $0 |
+|  | total | 119 | total | $0 |
