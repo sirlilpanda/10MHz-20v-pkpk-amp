@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 01:39:48.463214 on 19-08-2025.
+report created at 02:58:29.753719 on 19-08-2025.
 
-10MHz-amp_bill_of_material has a total of 119 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 121 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -52,6 +52,7 @@ report created at 01:39:48.463214 on 19-08-2025.
 | D24 | NSR0340HT1G | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | D25 | NSR0340HT1G | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | D26 | SMAJ16CA | 1 | Diode_SMD:D_SMA | $0 |
+| D27 | LED | 1 | Diode_SMD:D_0603_1608Metric | $0 |
 | D28 | BZV55B10 | 1 | Diode_SMD:D_MiniMELF | $0 |
 | D29 | BZV55B10 | 1 | Diode_SMD:D_MiniMELF | $0 |
 | D30 | BZV55B10 | 1 | Diode_SMD:D_MiniMELF | $0 |
@@ -72,7 +73,6 @@ report created at 01:39:48.463214 on 19-08-2025.
 | J8 | Conn_01x07_Socket | 1 | Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical | $0 |
 | JP1 | RVP BYPASS | 1 |  | $0 |
 | JP2 | RVP BYPASS | 1 |  | $0 |
-| JP3 | +VDC | 1 |  | $0 |
 | JP4 | -VDC | 1 |  | $0 |
 | JP5 | RVP BYPASS | 1 |  | $0 |
 | JP6 | 24V | 1 |  | $0 |
@@ -119,10 +119,12 @@ report created at 01:39:48.463214 on 19-08-2025.
 | R31 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R32 | 0 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R33 | 1 | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| R34 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | SW1 | SW_SPDT | 1 |  | $0 |
 | SW2 | SW_SPST | 1 |  | $0 |
 | SW3 | SW_SP5T_NR01105 | 1 | Button_Switch_THT:SW_NKK_NR01 | $0 |
+| SW5 | 100SP2T1B1M1QEH | 1 | Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical | $0 |
 | TP1 | grounding_strip | 1 |  | $0 |
 | TP2 | grounding_strip | 1 |  | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm | $0 |
-|  | total | 119 | total | $0 |
+|  | total | 121 | total | $0 |
