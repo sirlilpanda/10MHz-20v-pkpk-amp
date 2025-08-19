@@ -1,6 +1,6 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 07:17:28.153352 on 19-08-2025.
+report created at 11:53:12.353790 on 19-08-2025.
 
 10MHz-amp_bill_of_material has a total of 136 parts with a cost of $0.
 
@@ -94,9 +94,9 @@ report created at 07:17:28.153352 on 19-08-2025.
 | Q2 | DMN6075SQ-7 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | Q3 | DMPH6250SQ-13 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | R1 | 1k | 1 | Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal | $0 |
-| R2 | 110R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R3 | 1k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R4 | 200R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R2 | 1k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R3 | 200R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R4 | 110R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R5 | 10R2 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R6 | 1R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R7 | 1R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
