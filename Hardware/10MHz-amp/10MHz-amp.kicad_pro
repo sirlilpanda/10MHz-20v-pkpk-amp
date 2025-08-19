@@ -485,7 +485,7 @@
         "name": "HIGH_FREQ",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
-        "schematic_color": "rgb(255, 255, 0)"
+        "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
