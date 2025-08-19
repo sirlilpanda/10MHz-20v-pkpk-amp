@@ -9019,16 +9019,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 130.81) (xy 45.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef03a8f-4560-4212-8539-580fdf4132ed")
-	)
-	(wire
-		(pts
 			(xy 151.13 222.25) (xy 154.94 222.25)
 		)
 		(stroke
@@ -9566,6 +9556,16 @@
 			(type default)
 		)
 		(uuid "3a47cad2-c34a-41ab-bcf5-523dc86cfabd")
+	)
+	(wire
+		(pts
+			(xy 50.8 130.81) (xy 45.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0c9af4-9c6b-4b2e-9300-a74193c5f8c3")
 	)
 	(wire
 		(pts
@@ -10706,6 +10706,16 @@
 			(type default)
 		)
 		(uuid "81204a0b-9262-4742-a0a4-a9c46759e805")
+	)
+	(wire
+		(pts
+			(xy 50.8 146.05) (xy 45.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84566be8-8a4d-457f-93bf-8c7295d0e171")
 	)
 	(wire
 		(pts
@@ -12009,16 +12019,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 45.72 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0f92fe8-b36e-44e8-8e65-9e2a74722be1")
-	)
-	(wire
-		(pts
 			(xy 119.38 74.93) (xy 140.97 74.93)
 		)
 		(stroke
@@ -13257,7 +13257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00869dba-7a1b-48f3-bd10-8a0f6d01e31f")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 50.8 156.464 90)
 			(effects
 				(font
@@ -13345,7 +13345,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15309,7 +15309,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ea2c666-5197-45ae-b93d-fe9f97c9bee2")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 54.61 125.984 90)
 			(effects
 				(font
@@ -15397,7 +15397,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -21001,7 +21001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "547425f6-3d8d-48bb-9a24-39f8cf12b029")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 54.61 141.224 90)
 			(effects
 				(font
@@ -21089,7 +21089,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
