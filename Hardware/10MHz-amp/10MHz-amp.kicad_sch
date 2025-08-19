@@ -7403,7 +7403,7 @@
 		(uuid b48c8c61-d697-498e-b3d2-af86c0336f29)
 	)
 	(rectangle
-		(start 198.12 173.99)
+		(start 196.85 173.99)
 		(end 401.32 236.22)
 		(stroke
 			(width 0)
@@ -7439,7 +7439,7 @@
 		(uuid d0db6f3e-ba70-4f8b-b8dc-85ab9645c418)
 	)
 	(rectangle
-		(start 198.12 238.76)
+		(start 196.85 238.76)
 		(end 273.05 278.13)
 		(stroke
 			(width 0)
@@ -7688,7 +7688,7 @@
 	)
 	(text "24v @ 1A INPUT"
 		(exclude_from_sim no)
-		(at 214.63 177.038 0)
+		(at 213.36 177.038 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7758,7 +7758,7 @@
 	)
 	(text "POWER SWAP"
 		(exclude_from_sim no)
-		(at 311.658 108.712 0)
+		(at 210.058 103.124 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -7859,7 +7859,7 @@
 	)
 	(text "STAR GROUND POINT"
 		(exclude_from_sim no)
-		(at 208.534 240.792 0)
+		(at 208.026 240.792 0)
 		(effects
 			(font
 				(size 1.27 1.27)
