@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 04:07:02.897235 on 19-08-2025.
+report created at 04:56:05.513943 on 19-08-2025.
 
-10MHz-amp_bill_of_material has a total of 119 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 126 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -70,7 +70,13 @@ report created at 04:07:02.897235 on 19-08-2025.
 | J5 | Conn_Coaxial | 1 |  | $0 |
 | J6 | Barrel_Jack_MountingPin | 1 |  | $0 |
 | J7 | Conn_01x08_Pin | 1 |  | $0 |
-| J8 | Conn_01x08_Socket | 1 |  | $0 |
+| J8 | Conn_01x08_Socket | 1 | Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical | $0 |
+| J9 | Conn_01x03_Pin | 1 |  | $0 |
+| J10 | Conn_01x03_Socket | 1 |  | $0 |
+| J11 | Conn_01x03_Pin | 1 |  | $0 |
+| J12 | Conn_01x03_Socket | 1 |  | $0 |
+| J13 | Conn_01x03_Socket | 1 |  | $0 |
+| J14 | Conn_01x03_Pin | 1 |  | $0 |
 | JP1 | RVP BYPASS | 1 |  | $0 |
 | JP2 | RVP BYPASS | 1 |  | $0 |
 | JP4 | -VDC | 1 |  | $0 |
@@ -81,7 +87,7 @@ report created at 04:07:02.897235 on 19-08-2025.
 | K3 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K4 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | K5 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
-| K6 | TQ2-5V | 1 | TQ2-5V:TQ2 | $0 |
+| K6 | TQ2-24V | 1 | TQ2-5V:TQ2 | $0 |
 | N1 | Housing | 1 |  | $0 |
 | Q1 | DMPH6250SQ-13 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | Q2 | DMN6075SQ-7 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
@@ -122,7 +128,8 @@ report created at 04:07:02.897235 on 19-08-2025.
 | R34 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | R36 | 10k | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | SW1 | SW_SPDT | 1 |  | $0 |
-| SW2 | SW_SPST | 1 |  | $0 |
+| SW2 | SW_SPDT | 1 |  | $0 |
+| SW3 | SW_SPDT | 1 |  | $0 |
 | SW4 | SP6T-A10603RNZQ | 1 | Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm | $0 |
-|  | total | 119 | total | $0 |
+|  | total | 126 | total | $0 |
