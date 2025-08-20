@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72")
 	(paper "A3")
+	(title_block
+		(title "SCOPE CREEP AMP")
+		(date "2025-08-21")
+		(rev "REV: A")
+		(company "sirlilpanda")
+		(comment 1 "DESGINER: LOGAN HENDERSON")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:THS3491xDDA"
 			(pin_names
