@@ -1,38 +1,38 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 01:36:15.788483 on 20-08-2025.
+report created at 22:34:29.693361 on 20-08-2025.
 
-10MHz-amp_bill_of_material has a total of 139 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 141 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
-| C1 | 10n | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C2 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C3 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
-| C4 | 10n | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C5 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C6 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
-| C7 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
-| C8 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
-| C9 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C10 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C11 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C12 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C13 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
-| C14 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
-| C15 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
+| C1 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C2 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C3 | 10n | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C4 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C5 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
+| C6 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C7 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C8 | 10n | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C9 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C10 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
+| C11 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
+| C12 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
+| C13 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C14 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C15 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
 | C16 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C17 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
-| C18 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C19 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C17 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
+| C18 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
+| C19 | 6.8u | 1 | Capacitor_SMD:C_1812_4532Metric | $0 |
 | C20 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C21 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C22 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C21 | 22u | 1 | Capacitor_SMD:CP_Elec_6.3x7.7 | $0 |
+| C22 | 10u | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | C23 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
-| C24 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C25 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C26 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
-| C27 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C24 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C25 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C26 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C27 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
 | D1 | SM15T39A | 1 | Diode_SMD:ST_D_SMC | $0 |
 | D2 | SM15T39A | 1 | Diode_SMD:ST_D_SMC | $0 |
 | D3 | SMAJ16CA | 1 | Diode_SMD:D_SMA | $0 |
@@ -66,6 +66,8 @@ report created at 01:36:15.788483 on 20-08-2025.
 | FB1 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | FB2 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | FB3 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
+| FB4 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
+| FB5 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | HS1 | Heatsink | 1 |  | $0 |
 | HS2 | Heatsink | 1 |  | $0 |
 | J1 | Conn_Coaxial | 1 | Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal | $0 |
@@ -100,37 +102,37 @@ report created at 01:36:15.788483 on 20-08-2025.
 | Q3 | DMPH6250SQ-13 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | R1 | 1k | 1 | Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal | $0 |
 | R2 | 1000R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R3 | 274R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R3 | 274R | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | R4 | 157R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R5 | 15R0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R6 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R8 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R7 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R8 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R9 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R10 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R10 | 3000R | 1 | Resistor_SMD:R_1206_3216Metric | $0 |
 | R11 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R12 | 3000R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R12 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R13 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R14 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R15 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R16 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R17 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R16 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R17 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R18 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R19 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R20 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R21 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R22 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R21 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R22 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R23 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R24 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R25 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R26 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R27 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R28 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R29 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R30 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R29 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R30 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R31 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R32 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R33 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R34 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R35 | 0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | SW1 | SW_SPDT | 1 |  | $0 |
 | SW2 | SW_SPDT | 1 |  | $0 |
 | SW3 | SW_SPDT | 1 |  | $0 |
@@ -145,4 +147,4 @@ report created at 01:36:15.788483 on 20-08-2025.
 | TP10 | crimp | 1 |  | $0 |
 | TP11 | crimp | 1 |  | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm | $0 |
-|  | total | 139 | total | $0 |
+|  | total | 141 | total | $0 |
