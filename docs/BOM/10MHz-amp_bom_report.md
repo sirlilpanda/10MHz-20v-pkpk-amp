@@ -1,8 +1,8 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 23:47:18.527263 on 19-08-2025.
+report created at 01:36:15.788483 on 20-08-2025.
 
-10MHz-amp_bill_of_material has a total of 136 parts with a cost of $0.
+10MHz-amp_bill_of_material has a total of 139 parts with a cost of $0.
 
 | Reference | Value | Quantity | part number | cost |
 | --------- | ----- | -------- | ----------- | ---- |
@@ -29,6 +29,10 @@ report created at 23:47:18.527263 on 19-08-2025.
 | C21 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
 | C22 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
 | C23 | 100n | 1 | Capacitor_SMD:C_0805_2012Metric | $0 |
+| C24 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C25 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C26 | 100p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
+| C27 | 1000p | 1 | Capacitor_SMD:C_0603_1608Metric | $0 |
 | D1 | SM15T39A | 1 | Diode_SMD:ST_D_SMC | $0 |
 | D2 | SM15T39A | 1 | Diode_SMD:ST_D_SMC | $0 |
 | D3 | SMAJ16CA | 1 | Diode_SMD:D_SMA | $0 |
@@ -63,6 +67,7 @@ report created at 23:47:18.527263 on 19-08-2025.
 | FB2 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | FB3 | 2508051217Y6 | 1 | Resistor_SMD:R_0805_2012Metric | $0 |
 | HS1 | Heatsink | 1 |  | $0 |
+| HS2 | Heatsink | 1 |  | $0 |
 | J1 | Conn_Coaxial | 1 | Connector_Coaxial:BNC_TEConnectivity_1478035_Horizontal | $0 |
 | J2 | BANANA_JACK | 1 |  | $0 |
 | J3 | BANANA_JACK | 1 |  | $0 |
@@ -94,19 +99,17 @@ report created at 23:47:18.527263 on 19-08-2025.
 | Q2 | DMN6075SQ-7 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | Q3 | DMPH6250SQ-13 | 1 | Package_TO_SOT_SMD:SOT-23-3 | $0 |
 | R1 | 1k | 1 | Potentiometer_THT:Potentiometer_Alps_RK09Y11_Single_Horizontal | $0 |
-| R2 | 1k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R3 | 200R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R4 | 110R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R5 | 10R2 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R6 | 1R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R7 | 1R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R2 | 1000R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R3 | 274R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R4 | 157R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R5 | 15R0 | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R6 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R8 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R9 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R10 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R11 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R12 | 1000R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
+| R12 | 3000R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R13 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
-| R14 | 50R | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R15 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R16 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
 | R17 | 10k | 1 | Resistor_SMD:R_0603_1608Metric | $0 |
@@ -142,4 +145,4 @@ report created at 23:47:18.527263 on 19-08-2025.
 | TP10 | crimp | 1 |  | $0 |
 | TP11 | crimp | 1 |  | $0 |
 | U1 | THS3491xDDA | 1 | Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.3mm | $0 |
-|  | total | 136 | total | $0 |
+|  | total | 139 | total | $0 |
