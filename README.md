@@ -1,21 +1,21 @@
 # kicad project amp
-[![.github/workflows/main.yaml](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/workflows/main.yaml)
+[![.github/workflows/main.yaml](https://github.com/sirlilpanda/high-freq-range-amp/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/sirlilpanda/high-freq-range-amp/actions/workflows/main.yaml)
 
 a cool table showing the workflow of all the kicad projects.
 | project_name | DRC | ERC |
 | ------------ | --- | --- |
-| 10MHz-amp | [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/17068700905/attempts/1#summary-48391942758)| [❌](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/17068700905/attempts/1#summary-48391942757) | 
+| 10MHz-amp | [❌](https://github.com/sirlilpanda/high-freq-range-amp/actions/runs/17084483826/attempts/1#summary-48445753216)| [❌](https://github.com/sirlilpanda/high-freq-range-amp/actions/runs/17084483826/attempts/1#summary-48445753240) | 
 
 for a quick guide check [project setup](#project-setup)
 
 This is a simple project template for new kicad projects. This template has some basic setup already completed such as workflows for auto creating all the things you forget when creating a kicad project such as:
 
-- [gerbers](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/tree/main/10MHz-amp_gerber.zip)
-- [bom](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/tree/main/10MHz-amp_bom_report.md)
-- [schematic pdf](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/tree/main/10MHz-amp_schematic.pdf)
+- [gerbers](https://github.com/sirlilpanda/high-freq-range-amp/tree/main/10MHz-amp_gerber.zip)
+- [bom](https://github.com/sirlilpanda/high-freq-range-amp/tree/main/10MHz-amp_bom_report.md)
+- [schematic pdf](https://github.com/sirlilpanda/high-freq-range-amp/tree/main/10MHz-amp_schematic.pdf)
 
 
-This workflow will also run the design rules check on the PCB and schematic to ensure that you upload a working PCB. These reports are uploaded as summaries within the github [actions tab](https://github.com/sirlilpanda/10MHz-20v-pkpk-amp/actions/runs/17068700905). This template has a simple schematic PCB in it (because DRC fails on an empty PCB). Shown below is the example PCB.
+This workflow will also run the design rules check on the PCB and schematic to ensure that you upload a working PCB. These reports are uploaded as summaries within the github [actions tab](https://github.com/sirlilpanda/high-freq-range-amp/actions/runs/17084483826). This template has a simple schematic PCB in it (because DRC fails on an empty PCB). Shown below is the example PCB.
 
 ![example pcb with battery diode and resistor](res/image.png)
 

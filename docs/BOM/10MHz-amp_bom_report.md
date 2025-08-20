@@ -1,6 +1,6 @@
 # 📄 BOM for 10MHz-amp_bill_of_material 📄
 
-report created at 11:53:12.353790 on 19-08-2025.
+report created at 23:47:18.527263 on 19-08-2025.
 
 10MHz-amp_bill_of_material has a total of 136 parts with a cost of $0.
 
