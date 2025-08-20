@@ -7931,13 +7931,33 @@
 	)
 	(text "RF"
 		(exclude_from_sim no)
-		(at 115.57 130.556 0)
+		(at 122.174 125.222 0)
 		(effects
 			(font
 				(size 3.81 3.81)
 			)
 		)
 		(uuid "01757ff4-06c2-4182-a8c0-b7a13dbe0dfd")
+	)
+	(text "AMP INTERNALS"
+		(exclude_from_sim no)
+		(at 183.388 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "03646811-7dac-4ba0-9a08-d8eb718a15db")
+	)
+	(text "FUNCTION\nGEN"
+		(exclude_from_sim no)
+		(at 154.432 112.522 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06bcbd47-efc8-4a63-a883-ccd37991f09c")
 	)
 	(text "DECOUPLING"
 		(exclude_from_sim no)
@@ -8277,7 +8297,7 @@
 	)
 	(text "RI = RF/(2A_G-1)"
 		(exclude_from_sim no)
-		(at 107.95 134.62 0)
+		(at 107.95 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8356,9 +8376,9 @@
 		)
 		(uuid "af1b0704-1b42-4605-b795-ab180d5eebe9")
 	)
-	(text "FUNCTIONAL DIAGRAM OF SYSTEM"
+	(text "FUNCTIONAL DIAGRAM OF SYSTEM INPUT"
 		(exclude_from_sim no)
-		(at 158.75 98.298 0)
+		(at 161.798 98.298 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8468,7 +8488,7 @@
 	)
 	(text "Other common gains with thier resistors"
 		(exclude_from_sim no)
-		(at 117.602 158.496 0)
+		(at 117.602 164.846 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8486,6 +8506,16 @@
 		)
 		(uuid "f97dbe2a-7073-458b-9f01-c45c55469bf0")
 	)
+	(text "BNC"
+		(exclude_from_sim no)
+		(at 167.894 105.664 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fc376205-4419-432d-9080-808008e8feaf")
+	)
 	(junction
 		(at 46.99 72.39)
 		(diameter 0)
@@ -8493,7 +8523,7 @@
 		(uuid "0063c382-cfcf-44ae-919f-eb3858aed4a1")
 	)
 	(junction
-		(at 109.22 99.06)
+		(at 109.22 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ba79879-72b5-4e78-8a41-3e53e2ca845c")
@@ -8539,6 +8569,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2004b5ba-500c-4f54-a449-42e7c9f0b1cc")
+	)
+	(junction
+		(at 118.11 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20da9353-9f0d-42da-bfc8-d6948cf24c4a")
 	)
 	(junction
 		(at 240.03 255.27)
@@ -8601,12 +8637,6 @@
 		(uuid "3afb6b22-dbde-4c54-956f-2e7058326f52")
 	)
 	(junction
-		(at 114.3 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "41b96e1c-b0f2-4caa-a42e-9d8bc4e3981c")
-	)
-	(junction
 		(at 92.71 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8637,10 +8667,10 @@
 		(uuid "4ec04f36-7b7b-4640-8b8f-c79e51314ee8")
 	)
 	(junction
-		(at 120.65 99.06)
+		(at 111.76 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "53a76612-a1bb-4fa0-94f8-93570248dbfa")
+		(uuid "56af4438-4891-4278-a539-65f982bc92d7")
 	)
 	(junction
 		(at 360.68 123.19)
@@ -8679,7 +8709,7 @@
 		(uuid "61540618-03d4-443b-be66-0ec217769d0e")
 	)
 	(junction
-		(at 133.35 109.22)
+		(at 137.16 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "620ab8ff-616e-4066-8e69-4d1959dc70df")
@@ -8691,7 +8721,7 @@
 		(uuid "658bce9d-d38a-467e-933e-8bfa6a9a6d7c")
 	)
 	(junction
-		(at 127 109.22)
+		(at 130.81 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65d26b73-eefd-400d-91af-df037865ab88")
@@ -8701,6 +8731,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "668df7c5-3848-4970-821c-2821b924a879")
+	)
+	(junction
+		(at 124.46 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e58cb0-8a25-4212-98c6-c2e118949212")
 	)
 	(junction
 		(at 166.37 74.93)
@@ -8787,12 +8823,6 @@
 		(uuid "8a8c67d0-00ca-4031-af56-2e2725cf6981")
 	)
 	(junction
-		(at 127 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ac64857-2237-4975-a7db-c203ffaf19e2")
-	)
-	(junction
 		(at 78.74 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8859,6 +8889,12 @@
 		(uuid "a0ca6a5c-9081-4006-997b-c6fc814e36c8")
 	)
 	(junction
+		(at 130.81 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3b695d6-9349-4b5f-ae12-131931ccb7c7")
+	)
+	(junction
 		(at 214.63 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8871,7 +8907,7 @@
 		(uuid "a6d97edc-c4f3-401e-8a20-4070c7a1cd1f")
 	)
 	(junction
-		(at 120.65 109.22)
+		(at 124.46 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8161f17-00d8-4778-91e5-6a571f3f6910")
@@ -8929,6 +8965,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc67fdf8-a332-4fec-b494-5a9a63fe2b3d")
+	)
+	(junction
+		(at 48.26 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0fd05d2-5332-457b-88ae-501b4755fd99")
 	)
 	(junction
 		(at 396.24 148.59)
@@ -9037,6 +9079,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfee4aeb-a458-4ac1-afbe-0f72caa6334e")
+	)
+	(junction
+		(at 118.11 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c92ec2-b569-411a-a366-b650d3277af5")
+	)
+	(junction
+		(at 109.22 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c471a3-2c4b-4bd2-a1e4-c38f6e334e6f")
 	)
 	(junction
 		(at 360.68 97.79)
@@ -9218,7 +9272,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 133.35 99.06)
+			(xy 137.16 96.52) (xy 137.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9268,7 +9322,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 109.22) (xy 120.65 107.95)
+			(xy 124.46 105.41) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9558,7 +9612,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 109.22) (xy 127 109.22)
+			(xy 124.46 105.41) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -9618,6 +9672,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 34.29) (xy 35.56 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c344086-b62c-4533-87a9-3b51f3c1bfca")
+	)
+	(wire
+		(pts
 			(xy 34.29 156.21) (xy 38.1 156.21)
 		)
 		(stroke
@@ -9658,7 +9722,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 109.22) (xy 109.22 99.06)
+			(xy 96.52 95.25) (xy 96.52 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9668,7 +9732,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 133.35 107.95)
+			(xy 137.16 105.41) (xy 137.16 104.14)
 		)
 		(stroke
 			(width 0)
@@ -9685,6 +9749,16 @@
 			(type default)
 		)
 		(uuid "1eca1ebe-6a3e-4d31-8699-a8fc1a3eb714")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 99.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f2868c7-cb24-4303-bfd6-7d6c9ca4b9ec")
 	)
 	(wire
 		(pts
@@ -9778,7 +9852,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 82.55) (xy 109.22 99.06)
+			(xy 109.22 78.74) (xy 109.22 82.55)
 		)
 		(stroke
 			(width 0)
@@ -10078,7 +10152,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 99.06) (xy 114.3 99.06)
+			(xy 109.22 95.25) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10306,6 +10380,16 @@
 		)
 		(uuid "406addef-d7fb-40dc-af18-4f2672f298b8")
 	)
+	(wire
+		(pts
+			(xy 109.22 82.55) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e50424-7878-4d1c-9bac-9475a4342b57")
+	)
 	(polyline
 		(pts
 			(xy 242.57 21.59) (xy 242.57 95.25)
@@ -10378,7 +10462,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 127 107.95)
+			(xy 130.81 105.41) (xy 130.81 104.14)
 		)
 		(stroke
 			(width 0)
@@ -10558,7 +10642,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 104.14 100.33)
+			(xy 111.76 95.25) (xy 111.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -10578,7 +10662,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 107.95) (xy 114.3 109.22)
+			(xy 118.11 104.14) (xy 118.11 105.41)
 		)
 		(stroke
 			(width 0)
@@ -10595,6 +10679,16 @@
 			(type default)
 		)
 		(uuid "51965ee5-4ff8-45d5-9ccf-ae7c4757ff4b")
+	)
+	(wire
+		(pts
+			(xy 58.42 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a46003-5ea8-45d9-982e-a0eadf3628ae")
 	)
 	(wire
 		(pts
@@ -10718,6 +10812,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58131030-73a6-45d1-b652-48d83b55e939")
+	)
+	(wire
+		(pts
 			(xy 49.53 115.57) (xy 45.72 115.57)
 		)
 		(stroke
@@ -10838,7 +10942,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 100.33) (xy 120.65 99.06)
+			(xy 124.46 96.52) (xy 124.46 95.25)
 		)
 		(stroke
 			(width 0)
@@ -10896,16 +11000,6 @@
 		)
 		(uuid "5f57de7e-2a50-4806-996c-f5fb8e23be4b")
 	)
-	(wire
-		(pts
-			(xy 58.42 34.29) (xy 68.58 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f7806e0-5d3e-47c3-b452-d88641e8ed00")
-	)
 	(polyline
 		(pts
 			(xy 109.22 27.94) (xy 176.53 27.94)
@@ -10938,7 +11032,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 133.35 109.22)
+			(xy 130.81 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11108,6 +11202,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a3954d1-547d-440e-84b6-80f68a798b71")
+	)
+	(wire
+		(pts
 			(xy 254 44.45) (xy 271.78 44.45)
 		)
 		(stroke
@@ -11155,6 +11259,16 @@
 			(type default)
 		)
 		(uuid "6e481772-2840-4da1-8da8-695311506f0e")
+	)
+	(polyline
+		(pts
+			(xy 160.02 100.33) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc1048d-9f07-4fdb-90d1-0de663988318")
 	)
 	(wire
 		(pts
@@ -11526,6 +11640,16 @@
 		)
 		(uuid "891fe2ee-4892-40b0-919e-5b2695df20ec")
 	)
+	(polyline
+		(pts
+			(xy 175.26 100.33) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899c7d7c-5722-4bf3-95f4-fcd76fef007c")
+	)
 	(wire
 		(pts
 			(xy 350.52 54.61) (xy 350.52 123.19)
@@ -11555,6 +11679,16 @@
 			(type default)
 		)
 		(uuid "8b660662-3183-4447-a529-b6475c2db180")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 109.22 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0eb1c6-ad75-4e3b-9b18-f20a02258f2a")
 	)
 	(wire
 		(pts
@@ -11708,7 +11842,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 30.48) (xy 68.58 34.29)
+			(xy 29.21 30.48) (xy 29.21 34.29)
 		)
 		(stroke
 			(width 0)
@@ -11838,7 +11972,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 120.65 109.22)
+			(xy 118.11 105.41) (xy 124.46 105.41)
 		)
 		(stroke
 			(width 0)
@@ -11885,16 +12019,6 @@
 			(type default)
 		)
 		(uuid "a11849a1-1b3c-41c2-ae22-153ab5e19b35")
-	)
-	(wire
-		(pts
-			(xy 104.14 99.06) (xy 109.22 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1923e57-c6cd-4fda-afa4-9e96d7319dcf")
 	)
 	(wire
 		(pts
@@ -12148,16 +12272,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 120.65 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af09e872-40f7-43a4-ad6c-c5326bdb9463")
-	)
-	(wire
-		(pts
 			(xy 370.84 148.59) (xy 370.84 160.02)
 		)
 		(stroke
@@ -12338,6 +12452,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 34.29) (xy 48.26 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2e17e3-cca4-44c4-987f-368a91a243a8")
+	)
+	(wire
+		(pts
 			(xy 387.35 58.42) (xy 383.54 58.42)
 		)
 		(stroke
@@ -12345,6 +12469,16 @@
 			(type default)
 		)
 		(uuid "bf0c06ac-40c7-475a-b608-28b9db3f014e")
+	)
+	(wire
+		(pts
+			(xy 124.46 95.25) (xy 130.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf10a428-7bca-4b31-b7b6-0906521f2ce2")
 	)
 	(wire
 		(pts
@@ -12455,6 +12589,16 @@
 			(type default)
 		)
 		(uuid "c67aebd1-bcdf-4bd4-88ef-d814822a4daf")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 118.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69a5e1f-e0aa-4e7a-b9c8-c4394ab41539")
 	)
 	(wire
 		(pts
@@ -12888,6 +13032,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 104.14) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36bc634-e66f-4adb-9a7b-16fcef76c96f")
+	)
+	(wire
+		(pts
 			(xy 106.68 222.25) (xy 101.6 222.25)
 		)
 		(stroke
@@ -12905,16 +13059,6 @@
 			(type default)
 		)
 		(uuid "e493d899-7153-466d-baed-6d7fd3256aa5")
-	)
-	(wire
-		(pts
-			(xy 120.65 99.06) (xy 127 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6449321-b6b8-42fa-a591-24e19f0986cf")
 	)
 	(wire
 		(pts
@@ -13018,7 +13162,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 127 99.06)
+			(xy 130.81 96.52) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13098,7 +13242,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 99.06) (xy 127 99.06)
+			(xy 137.16 95.25) (xy 130.81 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13188,7 +13332,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 110.49) (xy 133.35 109.22)
+			(xy 137.16 106.68) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -13268,7 +13412,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 100.33)
+			(xy 118.11 95.25) (xy 118.11 96.52)
 		)
 		(stroke
 			(width 0)
@@ -13319,7 +13463,7 @@
 		(cells
 			(table_cell "SIG Vpkpk AMP "
 				(exclude_from_sim no)
-				(at 97.79 161.29 0)
+				(at 97.79 167.64 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13336,7 +13480,7 @@
 			)
 			(table_cell "GAIN"
 				(exclude_from_sim no)
-				(at 116.84 161.29 0)
+				(at 116.84 167.64 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13353,7 +13497,7 @@
 			)
 			(table_cell "RESISOR"
 				(exclude_from_sim no)
-				(at 135.89 161.29 0)
+				(at 135.89 167.64 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13370,7 +13514,7 @@
 			)
 			(table_cell "12v"
 				(exclude_from_sim no)
-				(at 97.79 163.83 0)
+				(at 97.79 170.18 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13387,7 +13531,7 @@
 			)
 			(table_cell "2.5"
 				(exclude_from_sim no)
-				(at 116.84 163.83 0)
+				(at 116.84 170.18 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13404,7 +13548,7 @@
 			)
 			(table_cell "750R"
 				(exclude_from_sim no)
-				(at 135.89 163.83 0)
+				(at 135.89 170.18 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13421,7 +13565,7 @@
 			)
 			(table_cell "3.3v"
 				(exclude_from_sim no)
-				(at 97.79 166.37 0)
+				(at 97.79 172.72 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13438,7 +13582,7 @@
 			)
 			(table_cell "9.09"
 				(exclude_from_sim no)
-				(at 116.84 166.37 0)
+				(at 116.84 172.72 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13455,7 +13599,7 @@
 			)
 			(table_cell "174R"
 				(exclude_from_sim no)
-				(at 135.89 166.37 0)
+				(at 135.89 172.72 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13472,7 +13616,7 @@
 			)
 			(table_cell "9v"
 				(exclude_from_sim no)
-				(at 97.79 168.91 0)
+				(at 97.79 175.26 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13489,7 +13633,7 @@
 			)
 			(table_cell "3.33"
 				(exclude_from_sim no)
-				(at 116.84 168.91 0)
+				(at 116.84 175.26 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13506,7 +13650,7 @@
 			)
 			(table_cell "536R"
 				(exclude_from_sim no)
-				(at 135.89 168.91 0)
+				(at 135.89 175.26 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13523,7 +13667,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 97.79 171.45 0)
+				(at 97.79 177.8 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13540,7 +13684,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 116.84 171.45 0)
+				(at 116.84 177.8 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13557,7 +13701,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 135.89 171.45 0)
+				(at 135.89 177.8 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13574,7 +13718,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 97.79 173.99 0)
+				(at 97.79 180.34 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13591,7 +13735,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 116.84 173.99 0)
+				(at 116.84 180.34 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13608,7 +13752,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 135.89 173.99 0)
+				(at 135.89 180.34 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13625,7 +13769,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 97.79 176.53 0)
+				(at 97.79 182.88 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13642,7 +13786,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 116.84 176.53 0)
+				(at 116.84 182.88 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13659,7 +13803,7 @@
 			)
 			(table_cell "~"
 				(exclude_from_sim no)
-				(at 135.89 176.53 0)
+				(at 135.89 182.88 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13699,7 +13843,7 @@
 		(cells
 			(table_cell "RI"
 				(exclude_from_sim no)
-				(at 98.552 136.398 0)
+				(at 98.552 142.748 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13716,7 +13860,7 @@
 			)
 			(table_cell "GAIN"
 				(exclude_from_sim no)
-				(at 117.602 136.398 0)
+				(at 117.602 142.748 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13733,7 +13877,7 @@
 			)
 			(table_cell "RESISTOR"
 				(exclude_from_sim no)
-				(at 136.652 136.398 0)
+				(at 136.652 142.748 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13750,7 +13894,7 @@
 			)
 			(table_cell "R1"
 				(exclude_from_sim no)
-				(at 98.552 138.938 0)
+				(at 98.552 145.288 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13767,7 +13911,7 @@
 			)
 			(table_cell "ADJ: 2 -- ~INF"
 				(exclude_from_sim no)
-				(at 117.602 138.938 0)
+				(at 117.602 145.288 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13784,7 +13928,7 @@
 			)
 			(table_cell "1000R POT"
 				(exclude_from_sim no)
-				(at 136.652 138.938 0)
+				(at 136.652 145.288 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13801,7 +13945,7 @@
 			)
 			(table_cell "R2"
 				(exclude_from_sim no)
-				(at 98.552 141.478 0)
+				(at 98.552 147.828 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13818,7 +13962,7 @@
 			)
 			(table_cell "2x"
 				(exclude_from_sim no)
-				(at 117.602 141.478 0)
+				(at 117.602 147.828 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13835,7 +13979,7 @@
 			)
 			(table_cell "1000R"
 				(exclude_from_sim no)
-				(at 136.652 141.478 0)
+				(at 136.652 147.828 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13852,7 +13996,7 @@
 			)
 			(table_cell "R3"
 				(exclude_from_sim no)
-				(at 98.552 144.018 0)
+				(at 98.552 150.368 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13869,7 +14013,7 @@
 			)
 			(table_cell "6x"
 				(exclude_from_sim no)
-				(at 117.602 144.018 0)
+				(at 117.602 150.368 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13886,7 +14030,7 @@
 			)
 			(table_cell "274R"
 				(exclude_from_sim no)
-				(at 136.652 144.018 0)
+				(at 136.652 150.368 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13903,7 +14047,7 @@
 			)
 			(table_cell "R4"
 				(exclude_from_sim no)
-				(at 98.552 146.558 0)
+				(at 98.552 152.908 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13920,7 +14064,7 @@
 			)
 			(table_cell "10x"
 				(exclude_from_sim no)
-				(at 117.602 146.558 0)
+				(at 117.602 152.908 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13937,7 +14081,7 @@
 			)
 			(table_cell "157R"
 				(exclude_from_sim no)
-				(at 136.652 146.558 0)
+				(at 136.652 152.908 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13954,7 +14098,7 @@
 			)
 			(table_cell "R5"
 				(exclude_from_sim no)
-				(at 98.552 149.098 0)
+				(at 98.552 155.448 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13971,7 +14115,7 @@
 			)
 			(table_cell "100x"
 				(exclude_from_sim no)
-				(at 117.602 149.098 0)
+				(at 117.602 155.448 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -13988,7 +14132,7 @@
 			)
 			(table_cell "15R0"
 				(exclude_from_sim no)
-				(at 136.652 149.098 0)
+				(at 136.652 155.448 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14005,7 +14149,7 @@
 			)
 			(table_cell "NC"
 				(exclude_from_sim no)
-				(at 98.552 151.638 0)
+				(at 98.552 157.988 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14022,7 +14166,7 @@
 			)
 			(table_cell "0.5x"
 				(exclude_from_sim no)
-				(at 117.602 151.638 0)
+				(at 117.602 157.988 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14039,7 +14183,7 @@
 			)
 			(table_cell "NC"
 				(exclude_from_sim no)
-				(at 136.652 151.638 0)
+				(at 136.652 157.988 0)
 				(size 19.05 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -14131,7 +14275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -14149,7 +14293,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "YAG4477CT-ND"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -14158,7 +14302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD07158RL/1072262"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -14167,16 +14311,15 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 53.34 161.29 0)
+		(property "Notes" "25ppm"
+			(at 53.34 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RT0603BRD07158RL"
 			(at 53.34 161.29 0)
 			(effects
 				(font
@@ -14210,7 +14353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02e0c073-8ffe-4556-bf58-a6187da90789")
-		(property "Reference" "R23"
+		(property "Reference" "R21"
 			(at 282.194 78.486 0)
 			(effects
 				(font
@@ -14235,7 +14378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 285.75 77.47 0)
 			(effects
 				(font
@@ -14253,6 +14396,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 285.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 285.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 285.75 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2dbbe8ab-d612-49fe-b801-79a263b7179d")
 		)
@@ -14262,7 +14432,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R23")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14278,7 +14448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03442f37-529f-456a-9714-3463ee79ee5a")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 201.93 271.78 0)
 			(effects
 				(font
@@ -14328,7 +14498,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14993,7 +15163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06a11304-c500-435a-be28-9b21d9ec174d")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR062"
 			(at 360.68 137.16 0)
 			(effects
 				(font
@@ -15043,7 +15213,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR056")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -15352,7 +15522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07627d38-cdd2-407b-b822-1224842e673b")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 166.37 68.58 0)
 			(effects
 				(font
@@ -15402,7 +15572,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -15522,7 +15692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a21994a-2064-462e-9d8f-0befcf463a2d")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 243.84 210.82 0)
 			(effects
 				(font
@@ -15572,7 +15742,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15613,7 +15783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15631,7 +15801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "13-RT0603DRD0715RLCT-ND"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15640,7 +15810,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603DRD0715RL/1074281"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15649,16 +15819,15 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 53.34 176.53 0)
+		(property "Notes" "25ppm"
+			(at 53.34 179.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RT0603DRD0715RL"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15794,7 +15963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c309ed5-0555-456d-8062-dc7b57a58af0")
-		(property "Reference" "C8"
+		(property "Reference" "C12"
 			(at 134.62 247.65 0)
 			(effects
 				(font
@@ -15883,7 +16052,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C8")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -16004,7 +16173,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 120.65 104.14 0)
+		(at 124.46 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16012,8 +16181,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d4cd0e5-acdc-49ed-a528-f285344ec9af")
-		(property "Reference" "C4"
-			(at 119.126 92.456 0)
+		(property "Reference" "C8"
+			(at 124.206 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16022,7 +16191,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 119.126 94.996 0)
+			(at 124.206 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16031,7 +16200,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 119.6848 107.95 0)
+			(at 123.4948 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16040,7 +16209,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 120.65 104.14 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16049,7 +16218,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 120.65 104.14 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16058,7 +16227,7 @@
 			)
 		)
 		(property "Supplier Part Number" "399-C0603C103K5RACTUCT-ND"
-			(at 120.65 104.14 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16067,7 +16236,7 @@
 			)
 		)
 		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K5RACTU/411090"
-			(at 120.65 104.14 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16076,7 +16245,7 @@
 			)
 		)
 		(property "Notes" "50v"
-			(at 120.904 97.282 0)
+			(at 125.984 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16084,7 +16253,7 @@
 			)
 		)
 		(property "Manufactor Part Number" "C0603C103K5RACTU"
-			(at 120.65 104.14 0)
+			(at 124.46 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16101,7 +16270,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C4")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -16116,7 +16285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e3de63e-743a-484c-8ba3-2b4cd8fa4aac")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 78.74 77.4699 0)
 			(effects
 				(font
@@ -16204,7 +16373,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -16245,7 +16414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -16263,7 +16432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "YAG4454CT-ND"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -16272,7 +16441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRC071KL/5927497"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -16281,16 +16450,15 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 53.34 130.81 0)
+		(property "Notes" "15ppm"
+			(at 53.34 133.604 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RT0603BRC071KL"
 			(at 53.34 130.81 0)
 			(effects
 				(font
@@ -16617,7 +16785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1113786e-d9b4-487a-87ac-e88e6b6d7f9d")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR020"
 			(at 162.56 114.3 0)
 			(effects
 				(font
@@ -16627,7 +16795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.988 109.728 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16667,7 +16835,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR061")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16683,7 +16851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1132c422-ff38-450a-ab6e-508d74dc46cb")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR028"
 			(at 189.23 88.9 0)
 			(effects
 				(font
@@ -16733,7 +16901,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR023")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16750,7 +16918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13911c97-34c5-4ed1-9999-6ba8e8167493")
-		(property "Reference" "R31"
+		(property "Reference" "R29"
 			(at 392.43 40.64 90)
 			(effects
 				(font
@@ -16775,7 +16943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 392.43 46.99 0)
 			(effects
 				(font
@@ -16793,7 +16961,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 392.43 46.99 0)
 			(effects
 				(font
@@ -16802,7 +16970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 392.43 46.99 0)
 			(effects
 				(font
@@ -16820,7 +16988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 392.43 46.99 0)
 			(effects
 				(font
@@ -16838,7 +17006,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -16958,7 +17126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17bb0edb-3cf4-4b08-88e1-f2bcec380df8")
-		(property "Reference" "R30"
+		(property "Reference" "R28"
 			(at 393.446 224.536 0)
 			(effects
 				(font
@@ -16983,7 +17151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 389.89 223.52 0)
 			(effects
 				(font
@@ -17001,6 +17169,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 389.89 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba0c9c7e-551b-430b-8bc4-ae311c60fe3f")
 		)
@@ -17010,7 +17205,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R30")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -17026,7 +17221,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "181b0146-890b-4892-805b-c6573450702b")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 331.47 218.44 0)
 			(effects
 				(font
@@ -17115,7 +17310,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -17232,7 +17427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c2766b3-d2e0-4ab2-8d05-50509edaad90")
-		(property "Reference" "R15"
+		(property "Reference" "R13"
 			(at 185.166 234.696 0)
 			(effects
 				(font
@@ -17257,7 +17452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 181.61 233.68 0)
 			(effects
 				(font
@@ -17275,6 +17470,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 181.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 181.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 181.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d10bc57c-6930-4bb7-abfe-5513dd7a5f8d")
 		)
@@ -17284,7 +17506,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R15")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17300,7 +17522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d02bb44-ebd6-4086-8eb3-527bb709125e")
-		(property "Reference" "C26"
+		(property "Reference" "C1"
 			(at 41.148 37.338 0)
 			(effects
 				(font
@@ -17327,7 +17549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17345,7 +17567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "399-C0603C103K5RACTUCT-ND"
+		(property "Supplier Part Number" "13-CC0603KPX7R9BB101CT-ND"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17354,7 +17576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K5RACTU/411090"
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/CC0603KPX7R9BB101/11491141"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17371,7 +17593,7 @@
 				)
 			)
 		)
-		(property "Manufactor Part Number" "C0603C103K5RACTU"
+		(property "Manufactor Part Number" "CC0603KPX7R9BB101"
 			(at 48.26 38.1 0)
 			(effects
 				(font
@@ -17389,7 +17611,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C26")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -17405,7 +17627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e210460-a786-459f-afe1-2ae03ead289f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR060"
 			(at 360.68 86.36 0)
 			(effects
 				(font
@@ -17455,7 +17677,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR054")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -17575,7 +17797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f445eb6-9e75-4ce5-b88d-3eeedc469c01")
-		(property "Reference" "C3"
+		(property "Reference" "C5"
 			(at 81.788 36.83 0)
 			(effects
 				(font
@@ -17664,7 +17886,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C3")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -17976,7 +18198,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20b53ef7-846e-47de-af93-5a474a554cb6")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 61.722 37.084 0)
 			(effects
 				(font
@@ -18065,7 +18287,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18367,7 +18589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "268277ee-6626-4052-8286-532d0b014bf2")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 207.01 165.1 0)
 			(effects
 				(font
@@ -18417,7 +18639,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18433,7 +18655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad28cb1-9d2d-4990-b4b8-aa0c728bb84b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 240.03 274.32 0)
 			(effects
 				(font
@@ -18483,7 +18705,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -18602,7 +18824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c9b0c65-61a1-4565-9281-766bc552d8c8")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 115.062 44.196 0)
 			(effects
 				(font
@@ -18627,7 +18849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 111.76 45.72 0)
 			(effects
 				(font
@@ -18645,6 +18867,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 111.76 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad697e80-da08-4911-9790-160c9827fb8f")
 		)
@@ -18654,7 +18903,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -18669,7 +18918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d2e1d5e-6a4b-4404-a609-ebb4189891e7")
-		(property "Reference" "R16"
+		(property "Reference" "R14"
 			(at 185.166 246.126 0)
 			(effects
 				(font
@@ -18694,7 +18943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 181.61 245.11 0)
 			(effects
 				(font
@@ -18712,6 +18961,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 181.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 181.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 181.61 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3d60aa0-ae35-4a30-bc0d-c190b87a2a43")
 		)
@@ -18721,7 +18997,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R16")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -18736,7 +19012,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2ea6a234-1bfc-418a-b01c-11bd982ffbd1")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 240.03 238.76 0)
 			(effects
 				(font
@@ -18786,7 +19062,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -18802,7 +19078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f25e1e0-cc70-482d-ae5a-f56be5492ecd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 270.51 157.48 0)
 			(effects
 				(font
@@ -18852,7 +19128,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -19409,7 +19685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "351f942a-464d-4b40-aa9e-6f8273f4c6c0")
-		(property "Reference" "R24"
+		(property "Reference" "R22"
 			(at 289.306 225.806 0)
 			(effects
 				(font
@@ -19434,7 +19710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 285.75 224.79 0)
 			(effects
 				(font
@@ -19452,6 +19728,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 285.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 285.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 285.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "81aa4aa8-1b02-46a0-8065-db6dd5c8253d")
 		)
@@ -19461,7 +19764,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -19588,7 +19891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36ceb7ce-48a3-4331-b3a5-b76c425128ed")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR055"
 			(at 316.23 87.63 0)
 			(effects
 				(font
@@ -19638,7 +19941,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR049")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -19654,7 +19957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "370dfdac-d491-4bc6-bfe9-8e145366bcc0")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR027"
 			(at 181.61 121.92 0)
 			(effects
 				(font
@@ -19704,7 +20007,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR064")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -20015,7 +20318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "380229f6-b092-4fc2-90d8-02ebb30aa5ad")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 290.83 156.21 0)
 			(effects
 				(font
@@ -20065,7 +20368,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -20081,7 +20384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39704246-f0d5-4e00-9a2f-a33ead64fe30")
-		(property "Reference" "R29"
+		(property "Reference" "R27"
 			(at 332.994 78.486 0)
 			(effects
 				(font
@@ -20106,7 +20409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 336.55 77.47 0)
 			(effects
 				(font
@@ -20124,6 +20427,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 336.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 336.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 336.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84dcd0ac-792c-4654-914d-3f324f817dd7")
 		)
@@ -20133,7 +20463,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -20149,7 +20479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a41c3f7-14d2-4bcd-a4fd-9135818201ed")
-		(property "Reference" "C7"
+		(property "Reference" "C11"
 			(at 134.62 228.6 0)
 			(effects
 				(font
@@ -20238,7 +20568,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C7")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -20254,7 +20584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ce5ff61-9f2b-4db1-8e50-81324956336e")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR019"
 			(at 146.05 121.92 0)
 			(effects
 				(font
@@ -20304,7 +20634,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR062")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20321,7 +20651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d2b6f48-39f1-4ccf-b889-f281ec508284")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR054"
 			(at 313.69 162.56 0)
 			(effects
 				(font
@@ -20371,7 +20701,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR048")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20387,7 +20717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fd1c7db-0e24-4cc1-a9a7-d2d74d4ad4a9")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 289.814 35.306 0)
 			(effects
 				(font
@@ -20476,7 +20806,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -20558,7 +20888,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45024110-096b-448b-b37b-11bd657f29cc")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR026"
 			(at 172.72 114.3 0)
 			(effects
 				(font
@@ -20568,7 +20898,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.148 109.728 0)
+			(at 172.974 112.014 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20608,7 +20938,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR063")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -20624,7 +20954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f4cba5-332d-4e13-9fab-767856fa766a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR059"
 			(at 360.68 60.96 0)
 			(effects
 				(font
@@ -20674,7 +21004,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR053")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -21291,7 +21621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "489ad53b-6ac9-4c98-875e-b48248d7d393")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 295.91 87.63 0)
 			(effects
 				(font
@@ -21341,7 +21671,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -22193,7 +22523,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 53.34 147.828 90)
 			(effects
 				(font
@@ -22202,7 +22532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -22220,7 +22550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "YAG4868CT-ND"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -22229,7 +22559,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0805BRD07274RL/1075763"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -22238,16 +22568,15 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 53.34 146.05 0)
+		(property "Notes" "25ppm"
+			(at 53.34 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RT0805BRD07274RL"
 			(at 53.34 146.05 0)
 			(effects
 				(font
@@ -22487,7 +22816,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5992b99f-f05e-421e-a913-377e59a09b58")
-		(property "Reference" "C15"
+		(property "Reference" "C19"
 			(at 309.372 148.59 0)
 			(effects
 				(font
@@ -22576,7 +22905,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C15")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -22592,7 +22921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a1b4f28-ffdc-46f7-b5bb-3f010c9fa42e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 218.44 234.95 0)
 			(effects
 				(font
@@ -22642,7 +22971,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -22657,7 +22986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d571d00-af4d-486d-885e-76a6dc2c8d09")
-		(property "Reference" "C11"
+		(property "Reference" "C15"
 			(at 242.316 130.81 0)
 			(effects
 				(font
@@ -22746,7 +23075,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C11")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -22761,7 +23090,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d6f8e8a-ffc9-4111-9288-892d1de980bf")
-		(property "Reference" "R18"
+		(property "Reference" "R16"
 			(at 228.346 260.35 0)
 			(effects
 				(font
@@ -22786,7 +23115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 224.79 261.62 0)
 			(effects
 				(font
@@ -22804,6 +23133,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RC0603JR-070RL"
+			(at 224.79 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
+			(at 224.79 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 224.79 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af8cfae5-7ad9-4272-8a93-ad2d4e56b6a6")
 		)
@@ -22813,7 +23169,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R18")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22828,7 +23184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5f144eb5-79ec-40da-9a7d-171d056b19f8")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 244.094 248.666 0)
 			(effects
 				(font
@@ -22853,7 +23209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 240.03 250.19 0)
 			(effects
 				(font
@@ -22871,7 +23227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 240.03 250.19 0)
 			(effects
 				(font
@@ -22880,7 +23236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 240.03 250.19 0)
 			(effects
 				(font
@@ -22897,7 +23253,7 @@
 				)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 240.03 250.19 0)
 			(effects
 				(font
@@ -22915,7 +23271,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -23705,7 +24061,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "626dd06d-a494-4da3-93c1-71bdd0820c8c")
-		(property "Reference" "RxO"
+		(property "Reference" "RxO1"
 			(at 186.055 112.903 0)
 			(effects
 				(font
@@ -23793,7 +24149,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "RxO")
+					(reference "RxO1")
 					(unit 1)
 				)
 			)
@@ -23808,7 +24164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "62ccea86-8106-474f-b0ed-eb7f6464e62b")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 321.056 148.59 0)
 			(effects
 				(font
@@ -23897,7 +24253,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C16")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23913,7 +24269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63397154-8aac-4672-bea7-36965091376e")
-		(property "Reference" "R28"
+		(property "Reference" "R26"
 			(at 322.834 78.486 0)
 			(effects
 				(font
@@ -23938,7 +24294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 326.39 77.47 0)
 			(effects
 				(font
@@ -23956,6 +24312,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 326.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 326.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 326.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1209e137-9926-4794-a330-f57566ee8d6a")
 		)
@@ -23965,7 +24348,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -23973,15 +24356,15 @@
 	)
 	(symbol
 		(lib_id "power:VS")
-		(at 109.22 109.22 180)
+		(at 96.52 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "63c0dc9f-8de7-4ab6-a386-dcd10262d244")
-		(property "Reference" "#PWR014"
-			(at 109.22 105.41 0)
+		(property "Reference" "#PWR015"
+			(at 96.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23990,7 +24373,7 @@
 			)
 		)
 		(property "Value" "VS"
-			(at 109.474 113.538 0)
+			(at 96.774 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23998,7 +24381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 109.22 0)
+			(at 96.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24007,7 +24390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 109.22 0)
+			(at 96.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24016,7 +24399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VS\""
-			(at 109.22 109.22 0)
+			(at 96.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24030,7 +24413,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -24157,7 +24540,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "666436c1-00a9-4890-bc07-e5431b26be34")
-		(property "Reference" "RxL"
+		(property "Reference" "RxL1"
 			(at 178.435 112.903 0)
 			(effects
 				(font
@@ -24245,7 +24628,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "RxL")
+					(reference "RxL1")
 					(unit 1)
 				)
 			)
@@ -24373,7 +24756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67ea47ce-3164-4608-8d7d-c6b05890b01b")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR022"
 			(at 166.37 80.01 0)
 			(effects
 				(font
@@ -24423,7 +24806,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR019")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -24438,7 +24821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6834acef-49b7-4faf-bd83-ddd9937f8638")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 285.75 87.63 0)
 			(effects
 				(font
@@ -24488,7 +24871,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -25150,7 +25533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71352c25-9c6f-4691-8491-d134056cb904")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 290.83 129.54 0)
 			(effects
 				(font
@@ -25200,7 +25583,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -25318,7 +25701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71f31bce-c463-48a3-a055-99aaca17932e")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 210.566 153.416 0)
 			(effects
 				(font
@@ -25343,7 +25726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 207.01 152.4 0)
 			(effects
 				(font
@@ -25361,6 +25744,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 207.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 207.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 207.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69bbce6f-c3ef-4403-bd40-3ae89d186f86")
 		)
@@ -25370,7 +25780,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -25594,7 +26004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74f150e4-4957-43c9-b655-3c905e85ad9e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 224.79 274.32 0)
 			(effects
 				(font
@@ -25644,7 +26054,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -25765,7 +26175,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76976d47-b832-460e-bc83-d7072f5db7dd")
-		(property "Reference" "R21"
+		(property "Reference" "R19"
 			(at 243.586 260.35 0)
 			(effects
 				(font
@@ -25790,7 +26200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 240.03 261.62 0)
 			(effects
 				(font
@@ -25808,6 +26218,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RC0603JR-070RL"
+			(at 240.03 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
+			(at 240.03 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 240.03 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "023094c0-7fcf-4fd5-90c7-6292e8cdcb54")
 		)
@@ -25817,7 +26254,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R21")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -25832,7 +26269,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76ae64c6-534e-40e1-bd50-e0a65bb2903d")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR053"
 			(at 306.07 87.63 0)
 			(effects
 				(font
@@ -25882,7 +26319,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR047")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -26001,7 +26438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "775ef8a5-73d8-4831-afa2-021b3231710c")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 207.01 118.11 0)
 			(effects
 				(font
@@ -26051,7 +26488,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -26066,7 +26503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "792f109a-7f17-4454-9ce8-a899d8720dee")
-		(property "Reference" "C23"
+		(property "Reference" "C27"
 			(at 368.046 151.13 0)
 			(effects
 				(font
@@ -26155,7 +26592,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C23")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -26236,7 +26673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7aa9814e-b21c-4ae2-89e7-6e75abdf9a9c")
-		(property "Reference" "R22"
+		(property "Reference" "R20"
 			(at 258.826 260.35 0)
 			(effects
 				(font
@@ -26261,7 +26698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 255.27 261.62 0)
 			(effects
 				(font
@@ -26279,6 +26716,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RC0603JR-070RL"
+			(at 255.27 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
+			(at 255.27 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
+			(at 255.27 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54498be6-35d9-460f-a1b2-ecbd27389fb5")
 		)
@@ -26288,7 +26752,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R22")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -26846,7 +27310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85b2d684-355a-4299-87a3-61c9b0255902")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR056"
 			(at 326.39 87.63 0)
 			(effects
 				(font
@@ -26896,7 +27360,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR050")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -26911,7 +27375,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8628f2c1-9162-45c3-88db-78cc193cfb9c")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 218.44 128.27 0)
 			(effects
 				(font
@@ -26961,7 +27425,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -27183,7 +27647,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "882d1d3a-45b7-4b8d-9e33-266ea9985ffe")
-		(property "Reference" "C9"
+		(property "Reference" "C13"
 			(at 148.59 228.6 0)
 			(effects
 				(font
@@ -27272,7 +27736,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C9")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -27345,7 +27809,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 127 104.14 0)
+		(at 130.81 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27353,8 +27817,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8c4693ca-f26a-4b1e-9a11-2e682dd84c76")
-		(property "Reference" "C5"
-			(at 125.222 92.202 0)
+		(property "Reference" "C9"
+			(at 130.302 109.982 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27363,7 +27827,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 125.222 94.742 0)
+			(at 130.302 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27372,7 +27836,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 126.0348 107.95 0)
+			(at 129.8448 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27381,7 +27845,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 127 104.14 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27390,7 +27854,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 127 104.14 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27399,7 +27863,7 @@
 			)
 		)
 		(property "Supplier Part Number" "399-C0805C104K5RACTUCT-ND"
-			(at 127 104.14 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27408,7 +27872,7 @@
 			)
 		)
 		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0805C104K5RACTU/411169"
-			(at 127 104.14 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27417,7 +27881,7 @@
 			)
 		)
 		(property "Notes" "50v"
-			(at 127.254 97.282 0)
+			(at 132.334 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27425,7 +27889,7 @@
 			)
 		)
 		(property "Manufactor Part Number" "C0805C104K5RACTU"
-			(at 127 104.14 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27442,7 +27906,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -27561,7 +28025,7 @@
 		(on_board no)
 		(dnp no)
 		(uuid "8fa0ceaf-0069-4b76-882e-b809f63fbacf")
-		(property "Reference" "RxS"
+		(property "Reference" "RxS1"
 			(at 156.21 101.092 90)
 			(effects
 				(font
@@ -27649,7 +28113,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "RxS")
+					(reference "RxS1")
 					(unit 1)
 				)
 			)
@@ -27778,7 +28242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9143b4c9-1e5f-496b-a054-c21876602c52")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 287.02 45.72 0)
 			(effects
 				(font
@@ -27828,7 +28292,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -28059,7 +28523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9333515c-d653-408f-8a8e-4d1fbea0dfe1")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR066"
 			(at 396.24 161.29 0)
 			(effects
 				(font
@@ -28109,7 +28573,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR060")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -28630,7 +29094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c8caa0-c4fd-46bc-b643-f92f23dd0eb8")
-		(property "Reference" "R32"
+		(property "Reference" "R30"
 			(at 392.43 66.04 90)
 			(effects
 				(font
@@ -28655,7 +29119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 392.43 72.39 0)
 			(effects
 				(font
@@ -28673,7 +29137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 392.43 72.39 0)
 			(effects
 				(font
@@ -28682,7 +29146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 392.43 72.39 0)
 			(effects
 				(font
@@ -28700,7 +29164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 392.43 72.39 0)
 			(effects
 				(font
@@ -28718,7 +29182,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -28962,7 +29426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98761b70-e36d-44c5-888f-e59635b04ebe")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR063"
 			(at 360.68 162.56 0)
 			(effects
 				(font
@@ -29012,7 +29476,109 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR057")
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 102.87 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9879c197-3587-47b9-a84f-75e25f52779e")
+		(property "Reference" "FB4"
+			(at 102.108 88.392 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2508051217Y6"
+			(at 102.108 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 102.87 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19226"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactor Part Number" "2508051217Y6"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "120 Ohms @ 100 MHz"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1934-1472-1-ND"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/fair-rite-products-corp/2508051217Y6/8594305"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5c5b734-9599-4668-8572-875b87191b8f")
+		)
+		(pin "2"
+			(uuid "5432a43c-fd95-4da6-a2e4-8f63422e62f2")
+		)
+		(instances
+			(project "10MHz-amp"
+				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
+					(reference "FB4")
 					(unit 1)
 				)
 			)
@@ -29130,7 +29696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a6b857c-7ef1-4f71-9bfd-768006f1cf5e")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR065"
 			(at 370.84 236.22 0)
 			(effects
 				(font
@@ -29180,7 +29746,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR059")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -29195,7 +29761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c4cb214-75db-4317-9ebc-8db67b1c6ee6")
-		(property "Reference" "C22"
+		(property "Reference" "C26"
 			(at 368.046 125.73 0)
 			(effects
 				(font
@@ -29284,7 +29850,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C22")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -29299,7 +29865,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c832aec-ae83-467a-9f70-d10f988ed4f3")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 280.67 148.59 0)
 			(effects
 				(font
@@ -29349,7 +29915,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -29364,7 +29930,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d4c9bad-0c88-4331-8366-34fc0c4d34b8")
-		(property "Reference" "R13"
+		(property "Reference" "R11"
 			(at 120.142 44.196 0)
 			(effects
 				(font
@@ -29389,7 +29955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -29407,6 +29973,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0702ff9-1301-4ed7-b92e-02392af4555e")
 		)
@@ -29416,7 +30009,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R13")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -29556,72 +30149,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0c212e3-bd8a-4c29-84eb-5f43fcf55395")
-		(property "Reference" "#PWR066"
-			(at 104.14 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.568 109.728 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 104.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 104.14 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8f01e2ae-e5d0-48d3-96f0-1d099cf161b7")
-		)
-		(instances
-			(project "10MHz-amp"
-				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 257.81 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29630,7 +30157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4f5b540-c4a1-42b2-996a-915fb2c6f8bb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 257.81 139.7 0)
 			(effects
 				(font
@@ -29680,7 +30207,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -29697,7 +30224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58c0d2f-53b6-43ca-be81-6838918b6a80")
-		(property "Reference" "R33"
+		(property "Reference" "R31"
 			(at 392.43 91.44 90)
 			(effects
 				(font
@@ -29722,7 +30249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 392.43 97.79 0)
 			(effects
 				(font
@@ -29740,7 +30267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 392.43 97.79 0)
 			(effects
 				(font
@@ -29749,7 +30276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 392.43 97.79 0)
 			(effects
 				(font
@@ -29767,7 +30294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 392.43 97.79 0)
 			(effects
 				(font
@@ -29785,7 +30312,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R33")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -29800,7 +30327,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6220c72-5d57-40bd-a9ba-be65c8e80ae0")
-		(property "Reference" "C21"
+		(property "Reference" "C25"
 			(at 368.046 100.33 0)
 			(effects
 				(font
@@ -29889,7 +30416,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C21")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -29905,7 +30432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a69a92d0-9b88-4a34-adf0-0ff6db336378")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR064"
 			(at 370.84 209.55 0)
 			(effects
 				(font
@@ -29955,7 +30482,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR058")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -30379,7 +30906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a743797a-1dad-4b18-a69d-54d712dffb9e")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 231.14 168.91 0)
 			(effects
 				(font
@@ -30429,7 +30956,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -30445,7 +30972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7a52add-ca6e-4311-834d-c632cd65e032")
-		(property "Reference" "C27"
+		(property "Reference" "C2"
 			(at 51.308 37.338 0)
 			(effects
 				(font
@@ -30490,7 +31017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "399-C0603C103K5RACTUCT-ND"
+		(property "Supplier Part Number" "399-C0603C102K5RACTUCT-ND"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -30499,7 +31026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K5RACTU/411090"
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C102K5RACTU/411081"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -30516,7 +31043,7 @@
 				)
 			)
 		)
-		(property "Manufactor Part Number" "C0603C103K5RACTU"
+		(property "Manufactor Part Number" "C0603C102K5RACTU"
 			(at 58.42 38.1 0)
 			(effects
 				(font
@@ -30534,7 +31061,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C27")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -30652,7 +31179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9371b13-845e-4ebc-8c2c-c2f06d99ab27")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR057"
 			(at 336.55 87.63 0)
 			(effects
 				(font
@@ -30702,7 +31229,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR051")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -30821,7 +31348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae3775ac-e6f2-4d13-a86d-fea503c5d492")
-		(property "Reference" "C18"
+		(property "Reference" "C22"
 			(at 347.98 218.44 0)
 			(effects
 				(font
@@ -30910,7 +31437,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C18")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -31059,7 +31586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae4bcdd9-5b1c-47e0-b692-39519296c4ab")
-		(property "Reference" "R35"
+		(property "Reference" "R33"
 			(at 392.43 142.24 90)
 			(effects
 				(font
@@ -31084,7 +31611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 392.43 148.59 0)
 			(effects
 				(font
@@ -31102,7 +31629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 392.43 148.59 0)
 			(effects
 				(font
@@ -31111,7 +31638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 392.43 148.59 0)
 			(effects
 				(font
@@ -31129,7 +31656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 392.43 148.59 0)
 			(effects
 				(font
@@ -31147,7 +31674,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R35")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -31162,7 +31689,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aff007e2-35f7-4c03-bc68-9f785e772f96")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR025"
 			(at 167.64 257.81 0)
 			(effects
 				(font
@@ -31212,7 +31739,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR022")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -31227,7 +31754,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1e23889-e426-4fa7-b32c-384b4b36baaf")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 100.076 246.126 0)
 			(effects
 				(font
@@ -31252,7 +31779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 96.52 245.11 0)
 			(effects
 				(font
@@ -31270,6 +31797,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 96.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 96.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 96.52 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c67442b-026a-4d30-a36c-014789cb9c85")
 		)
@@ -31279,7 +31833,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -31295,7 +31849,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b369af05-900c-4b2c-bde2-5ecc8c5c925b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR061"
 			(at 360.68 111.76 0)
 			(effects
 				(font
@@ -31345,7 +31899,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR055")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -31361,7 +31915,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3cbcb06-2325-4dc8-9443-3370153d2740")
-		(property "Reference" "R25"
+		(property "Reference" "R23"
 			(at 292.354 78.486 0)
 			(effects
 				(font
@@ -31386,7 +31940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 295.91 77.47 0)
 			(effects
 				(font
@@ -31404,6 +31958,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 295.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 295.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 295.91 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea7415cc-a427-4960-91c8-0675b50ee631")
 		)
@@ -31413,7 +31994,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R25")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -31430,7 +32011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6447eb3-5611-4f43-9637-e293247a858d")
-		(property "Reference" "R34"
+		(property "Reference" "R32"
 			(at 392.43 116.84 90)
 			(effects
 				(font
@@ -31455,7 +32036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 392.43 123.19 0)
 			(effects
 				(font
@@ -31473,7 +32054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 392.43 123.19 0)
 			(effects
 				(font
@@ -31482,7 +32063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 392.43 123.19 0)
 			(effects
 				(font
@@ -31500,7 +32081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 392.43 123.19 0)
 			(effects
 				(font
@@ -31518,7 +32099,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R34")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -31533,7 +32114,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9de3bde-1ffe-4903-898f-1c5f30e7ee4c")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 300.99 129.54 0)
 			(effects
 				(font
@@ -31583,7 +32164,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -31701,7 +32282,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc67642d-bcc2-4530-97e2-b9e2713e0053")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 114.3 88.9 0)
 			(effects
 				(font
@@ -31751,7 +32332,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -31881,7 +32462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd066bab-f1aa-4edc-b606-18e49ae8f13d")
-		(property "Reference" "C10"
+		(property "Reference" "C14"
 			(at 148.59 247.65 0)
 			(effects
 				(font
@@ -31970,7 +32551,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C10")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -32098,7 +32679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c10cf9d9-c165-4b1c-94dd-b06ffcbc2ee1")
-		(property "Reference" "C13"
+		(property "Reference" "C17"
 			(at 262.128 123.19 0)
 			(effects
 				(font
@@ -32187,7 +32768,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C13")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -32202,7 +32783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1bd2c36-6f5d-47b5-b73a-a0d21c2544db")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 280.67 116.84 0)
 			(effects
 				(font
@@ -32252,7 +32833,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -32644,7 +33225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5f14c87-d360-45fc-96dd-1e6649c008b8")
-		(property "Reference" "R26"
+		(property "Reference" "R24"
 			(at 302.514 78.486 0)
 			(effects
 				(font
@@ -32669,7 +33250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 306.07 77.47 0)
 			(effects
 				(font
@@ -32687,6 +33268,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 306.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 306.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 306.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5450ca87-c0e3-445c-b28c-f2914ddbb44d")
 		)
@@ -32696,7 +33304,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R26")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -32930,7 +33538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c980357e-3ea1-43fb-8cde-680f3baffd89")
-		(property "Reference" "C2"
+		(property "Reference" "C4"
 			(at 71.374 36.83 0)
 			(effects
 				(font
@@ -33019,7 +33627,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C2")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -33152,7 +33760,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca13c0a7-1ace-4465-a2f4-5d275959c52d")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 255.27 274.32 0)
 			(effects
 				(font
@@ -33202,7 +33810,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -33210,7 +33818,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 114.3 104.14 0)
+		(at 118.11 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33218,8 +33826,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb6b1add-7d4a-4527-8b8c-60a0ecafcbdb")
-		(property "Reference" "C24"
-			(at 112.776 92.456 0)
+		(property "Reference" "C7"
+			(at 117.856 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33228,7 +33836,7 @@
 			)
 		)
 		(property "Value" "1000p"
-			(at 111.76 94.742 0)
+			(at 116.84 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33237,7 +33845,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 113.3348 107.95 0)
+			(at 117.1448 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33246,7 +33854,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 114.3 104.14 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33255,7 +33863,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 114.3 104.14 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33263,8 +33871,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "399-C0603C103K5RACTUCT-ND"
-			(at 114.3 104.14 0)
+		(property "Supplier Part Number" "399-C0603C102K5RACTUCT-ND"
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33272,8 +33880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K5RACTU/411090"
-			(at 114.3 104.14 0)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C102K5RACTU/411081"
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33282,15 +33890,15 @@
 			)
 		)
 		(property "Notes" "50v"
-			(at 114.554 97.282 0)
+			(at 119.634 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufactor Part Number" "C0603C103K5RACTU"
-			(at 114.3 104.14 0)
+		(property "Manufactor Part Number" "C0603C102K5RACTU"
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33307,7 +33915,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C24")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -33682,7 +34290,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce36ae76-312c-4482-8809-661a3fba2a31")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 139.7 68.58 0)
 			(effects
 				(font
@@ -33732,7 +34340,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -33843,6 +34451,108 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 39.37 34.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4e11683-e3d1-425d-a159-31dc2661da19")
+		(property "Reference" "FB5"
+			(at 40.64 25.654 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2508051217Y6"
+			(at 40.64 28.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 39.37 36.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~https://www.fair-rite.com/wp-content/themes/fair-rite/print_product.php?pid=19226"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactor Part Number" "2508051217Y6"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "120 Ohms @ 100 MHz"
+			(at 41.148 30.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part Number" "1934-1472-1-ND"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/fair-rite-products-corp/2508051217Y6/8594305"
+			(at 39.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "430e2e19-a3f6-4fe0-a154-f683991088a1")
+		)
+		(pin "2"
+			(uuid "a4e214ce-aa9f-468a-85eb-e54e44c53ddd")
+		)
+		(instances
+			(project "10MHz-amp"
+				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
+					(reference "FB5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 257.81 124.46 0)
 		(mirror y)
@@ -33852,7 +34562,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5213208-da71-46ef-a9ee-7c1853960921")
-		(property "Reference" "C12"
+		(property "Reference" "C16"
 			(at 250.444 123.19 0)
 			(effects
 				(font
@@ -33941,7 +34651,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C12")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -34022,7 +34732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6447c3a-54b9-49c8-837c-6f3e0147c904")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 234.95 142.24 0)
 			(effects
 				(font
@@ -34072,7 +34782,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -34191,7 +34901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d801cca2-4d86-4741-87e3-e5067b28b0be")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR058"
 			(at 345.44 41.91 0)
 			(effects
 				(font
@@ -34241,7 +34951,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR052")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -34551,7 +35261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d87e661c-795f-4b67-b307-35b31beb7c7f")
-		(property "Reference" "R19"
+		(property "Reference" "R17"
 			(at 233.68 157.4799 0)
 			(effects
 				(font
@@ -34578,7 +35288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -34596,7 +35306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-0.0GRCT-ND"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -34605,7 +35315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RC0603JR-070RL/726675"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -34623,7 +35333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RC0603JR-070RL"
 			(at 231.14 158.75 0)
 			(effects
 				(font
@@ -34641,7 +35351,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R19")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -35157,7 +35867,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e295c528-9da0-4ebd-8347-863e4f9a0cad")
-		(property "Reference" "C19"
+		(property "Reference" "C23"
 			(at 368.046 49.53 0)
 			(effects
 				(font
@@ -35246,7 +35956,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C19")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -35758,7 +36468,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 133.35 104.14 0)
+		(at 137.16 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35766,8 +36476,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb00144b-0a0f-40c0-bb2d-f891274e1417")
-		(property "Reference" "C6"
-			(at 131.318 91.948 0)
+		(property "Reference" "C10"
+			(at 136.398 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35776,7 +36486,7 @@
 			)
 		)
 		(property "Value" "6.8u"
-			(at 131.318 94.488 0)
+			(at 136.398 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35785,7 +36495,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1812_4532Metric"
-			(at 132.3848 107.95 0)
+			(at 136.1948 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35794,7 +36504,7 @@
 			)
 		)
 		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
-			(at 133.35 104.14 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35803,7 +36513,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 104.14 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35812,7 +36522,7 @@
 			)
 		)
 		(property "Supplier Part Number" "445-3919-1-ND"
-			(at 133.35 104.14 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35821,7 +36531,7 @@
 			)
 		)
 		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/tdk-corporation/C4532X7R1H685K250KB/1587498"
-			(at 133.35 104.14 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35830,7 +36540,7 @@
 			)
 		)
 		(property "Notes" "50v"
-			(at 133.35 97.028 0)
+			(at 138.43 114.808 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35838,7 +36548,7 @@
 			)
 		)
 		(property "Manufactor Part Number" "C4532X7R1H685K250KB"
-			(at 133.35 104.14 0)
+			(at 137.16 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35855,7 +36565,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -35870,7 +36580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed189b12-a6b9-41fe-a669-1069120b205b")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR023"
 			(at 167.64 222.25 0)
 			(effects
 				(font
@@ -35920,7 +36630,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR020")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -36232,7 +36942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef0da346-7efd-4f4f-ae3b-7e6c6908cde9")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 167.64 246.38 0)
 			(effects
 				(font
@@ -36282,7 +36992,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -36297,7 +37007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "efc366fa-56f6-46a1-85cc-d239bd176047")
-		(property "Reference" "C20"
+		(property "Reference" "C24"
 			(at 368.046 74.93 0)
 			(effects
 				(font
@@ -36386,7 +37096,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C20")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -36504,7 +37214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0866234-35bc-4377-9224-e4cc267e1944")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 115.57 123.952 90)
 			(effects
 				(font
@@ -36520,7 +37230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 115.57 118.872 90)
 			(effects
 				(font
@@ -36529,12 +37239,13 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 115.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
@@ -36544,10 +37255,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" ""
+		(property "Supplier Part Number" "311-3.0KDCT-ND"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -36556,7 +37268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" ""
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603DRD073KL/1035551"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -36565,16 +37277,15 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
-			(at 115.57 120.65 0)
+		(property "Notes" "25ppm"
+			(at 115.57 128.524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Manufactor Part Number" ""
+		(property "Manufactor Part Number" "RT0603DRD073KL"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -36592,7 +37303,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -36607,7 +37318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1bcd952-fa79-4944-afcb-8a78a20feda7")
-		(property "Reference" "R6"
+		(property "Reference" "R12"
 			(at 150.622 67.3099 90)
 			(effects
 				(font
@@ -36695,7 +37406,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R6")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -36769,7 +37480,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 68.58 30.48 0)
+		(at 29.21 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36777,7 +37488,7 @@
 		(dnp no)
 		(uuid "f5d2e306-403e-4966-8dfd-c1e9b7a39950")
 		(property "Reference" "#PWR011"
-			(at 68.58 34.29 0)
+			(at 29.21 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36786,7 +37497,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 68.58 26.416 0)
+			(at 29.21 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36794,7 +37505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 30.48 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36803,7 +37514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 30.48 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36812,7 +37523,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 68.58 30.48 0)
+			(at 29.21 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37230,7 +37941,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 104.14 104.14 0)
+		(at 111.76 100.33 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37238,8 +37949,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9ee9ae3-4567-4a5c-ac46-1ef3d19eab13")
-		(property "Reference" "C25"
-			(at 102.616 92.456 0)
+		(property "Reference" "C6"
+			(at 111.506 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37248,7 +37959,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 102.616 94.996 0)
+			(at 111.506 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37257,7 +37968,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 103.1748 107.95 0)
+			(at 110.7948 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37265,8 +37976,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
-			(at 104.14 104.14 0)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X7R_6.3V-to-250V_24.pdf"
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37275,7 +37986,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 104.14 104.14 0)
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37283,8 +37994,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number" "399-C0603C103K5RACTUCT-ND"
-			(at 104.14 104.14 0)
+		(property "Supplier Part Number" "13-CC0603KPX7R9BB101CT-ND"
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37292,8 +38003,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/kemet/C0603C103K5RACTU/411090"
-			(at 104.14 104.14 0)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/CC0603KPX7R9BB101/11491141"
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37302,15 +38013,15 @@
 			)
 		)
 		(property "Notes" "50v"
-			(at 104.394 97.282 0)
+			(at 113.284 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufactor Part Number" "C0603C103K5RACTU"
-			(at 104.14 104.14 0)
+		(property "Manufactor Part Number" "CC0603KPX7R9BB101"
+			(at 111.76 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37327,7 +38038,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -37342,7 +38053,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb47314f-8b51-41cd-a8ad-4819b6fb1a43")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 100.076 235.966 0)
 			(effects
 				(font
@@ -37367,7 +38078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 96.52 234.95 0)
 			(effects
 				(font
@@ -37385,6 +38096,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 96.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 96.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 96.52 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ec5c320-e1e3-4427-ba35-f5f8d3dc699b")
 		)
@@ -37394,7 +38132,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -37514,7 +38252,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd29590a-2fb3-4066-82bf-e731b5b7aefb")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 210.82 229.87 0)
 			(effects
 				(font
@@ -37564,7 +38302,7 @@
 		(instances
 			(project ""
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -37572,7 +38310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 133.35 110.49 0)
+		(at 137.16 106.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -37580,8 +38318,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd513dc4-96ac-491a-a08a-0f24237840ca")
-		(property "Reference" "#PWR016"
-			(at 133.35 116.84 0)
+		(property "Reference" "#PWR017"
+			(at 137.16 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37590,7 +38328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.778 112.268 0)
+			(at 132.588 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37598,7 +38336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 110.49 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37607,7 +38345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 110.49 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37616,7 +38354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 110.49 0)
+			(at 137.16 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37630,7 +38368,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -37646,7 +38384,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe31eacc-996d-492f-8c0a-f63dc4c1aad2")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 312.674 78.486 0)
 			(effects
 				(font
@@ -37671,7 +38409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf"
 			(at 316.23 77.47 0)
 			(effects
 				(font
@@ -37689,6 +38427,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufactor Part Number" "RT0603BRD0710KL"
+			(at 316.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number" "YAG1236CT-ND"
+			(at 316.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier link" "https://www.digikey.co.nz/en/products/detail/yageo/RT0603BRD0710KL/1072198"
+			(at 316.23 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cad97e77-04c1-497a-8b2e-194d4a320f93")
 		)
@@ -37698,7 +38463,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -37816,7 +38581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fffde62e-fb2e-4354-abaf-a96b7bcb2c6c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR029"
 			(at 189.23 121.92 0)
 			(effects
 				(font
@@ -37866,7 +38631,7 @@
 		(instances
 			(project "10MHz-amp"
 				(path "/4f1bcd0b-e27d-4d3c-bb56-f1e153ba9c72"
-					(reference "#PWR065")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
