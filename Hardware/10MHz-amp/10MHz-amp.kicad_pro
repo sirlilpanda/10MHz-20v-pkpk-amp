@@ -483,21 +483,21 @@
       {
         "line_style": 0,
         "name": "HIGH_FREQ",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 255, 0)",
         "priority": 0,
         "schematic_color": "rgb(255, 153, 0)"
       },
       {
         "line_style": 0,
         "name": "POWER+",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 0)",
         "priority": 3,
         "schematic_color": "rgb(255, 0, 0)"
       },
       {
         "line_style": 0,
         "name": "POWER-",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "priority": 2,
         "schematic_color": "rgb(0, 0, 194)"
       }
@@ -787,7 +787,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Datasheet"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
