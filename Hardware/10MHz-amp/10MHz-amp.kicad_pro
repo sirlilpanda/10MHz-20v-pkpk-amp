@@ -774,6 +774,12 @@
           "label": "Supplier Link",
           "name": "Supplier Link",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Params",
+          "name": "Sim.Params",
+          "show": false
         }
       ],
       "filter_string": "",
